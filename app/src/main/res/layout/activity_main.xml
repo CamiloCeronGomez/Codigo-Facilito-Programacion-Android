@@ -51,5 +51,12 @@
         android:id="@+id/btnUno"
         android:text="Uno"
        />
+<ImageView
+    android:id="@+id/ImgUno"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/usuario"
+    android:scaleType="centerCrop"
 
+    />
 </LinearLayout>
