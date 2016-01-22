@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Application</string>
     <string name="saludo">Hola Camilo</string>
+    <string name="hintEdtView" >Colocar nombre</string>
 </resources>
