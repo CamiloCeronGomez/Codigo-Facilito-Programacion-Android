@@ -12,6 +12,7 @@
     // El Linear layout  puede ser tanto vertical como horizontal y es la forma de como estaran organizados lo elementos dentro del view
    // El relative Layout no necesita orientacion
 
+
     <TextView
         android:text="@string/saludo"
         android:layout_width="match_parent"
@@ -21,6 +22,7 @@
         android:textColor="#ff3344"
         android:gravity="center_horizontal"
         android:textStyle="bold"/>
+
 
     <Button
         android:layout_width="match_parent"
