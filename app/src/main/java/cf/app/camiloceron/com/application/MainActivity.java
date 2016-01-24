@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 // declaro una variable de texto
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (v.getId()){
             case R.id.btnUno:
+                Toast.makeText(getApplicationContext(),"Mostrando Nombre y Contraseña",Toast.LENGTH_SHORT).show();
                 String dato1 = Usr.getText().toString();
                 campoN.setText(dato1);
                 String dato2 = Pass.getText().toString();
