@@ -57,6 +57,12 @@
         android:id="@+id/btnDos"
         android:text="Cambiar Imagen"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTres"
+        android:text="Mostar Lista"
+        />
 <ImageView
     android:id="@+id/ImgUno"
     android:layout_width="wrap_content"

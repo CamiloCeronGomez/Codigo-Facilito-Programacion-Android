@@ -1,5 +1,6 @@
 package cf.app.camiloceron.com.application;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,7 +18,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     EditText Pass;
     Button cambioUno;
     Button cambioDos;
-// declaro una variable de iamgen
+    Button cambioTres;
+    // declaro una variable de iamgen
     ImageView Img;
     ImageView Img2;
     @Override
@@ -38,9 +40,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Img2 = (ImageView)findViewById(R.id.ImgUno);
         cambioUno = (Button)findViewById(R.id.btnUno);
         cambioDos = (Button)findViewById(R.id.btnDos);
-// habilito los botones para que funcionen en el contexto this
+        cambioTres = (Button)findViewById(R.id.btnTres);
+      // habilito los botones para que funcionen en el contexto this
         cambioUno.setOnClickListener(this);
         cambioDos.setOnClickListener(this);
+        cambioTres.setOnClickListener(this);
     }
 
     @Override
@@ -56,6 +60,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case  R.id.btnDos:
               Img2.setImageResource(R.drawable.sinfoto);
+               break;
+            case  R.id.btnTres:
+                Intent intent = new Intent(MainActivity.this,SecondActivity.class);
+                startActivity(intent);
+                break;
 
 
         }
