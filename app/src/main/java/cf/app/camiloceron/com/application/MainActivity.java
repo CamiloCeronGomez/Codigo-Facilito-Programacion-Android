@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (v.getId()){
             case R.id.btnUno:
+                //creo un toast en el contexto getApplicationContext, de duracion LENGTH_SHORT y le doy .show para garantizar que se muestre
                 Toast.makeText(getApplicationContext(),"Mostrando Nombre y Contraseña",Toast.LENGTH_SHORT).show();
                 String dato1 = Usr.getText().toString();
                 campoN.setText(dato1);
@@ -62,7 +63,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
               Img2.setImageResource(R.drawable.sinfoto);
                break;
             case  R.id.btnTres:
+                String dato3 = Usr.getText().toString();
+                campoN.setText(dato3);
+                String dato4 = Pass.getText().toString();
+                campoC.setText(dato4);
+                //Declaro una nueva variable de tipo Intent en MainActivity y la envio a el segundo Activity
                 Intent intent = new Intent(MainActivity.this,SecondActivity.class);
+                // Paso del valor dato3 que le he dado el nombre de DATO3 a el segundo activity
+                intent.putExtra("DATO3",dato3);
+                intent.putExtra("DATO4",dato4);
                 startActivity(intent);
                 break;
 
