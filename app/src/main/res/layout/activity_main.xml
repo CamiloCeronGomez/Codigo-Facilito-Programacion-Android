@@ -14,7 +14,7 @@
 
 
     <TextView
-        android:text="Nombre"
+        android:text="@string/Nombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtUsuario"
@@ -26,10 +26,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/edtUsuario"
-        android:hint="Ej: Camilo Ceron"
+        android:hint="@string/hintNombre"
         />
     <TextView
-        android:text="Contraseña"
+        android:text="@string/Contraseña"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtContraseña"
@@ -41,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/edtContraseña"
-        android:hint="Ej: Solo Numeros"
+        android:hint="@string/hintContraseña"
         android:inputType="number"
         />
 
@@ -49,19 +49,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnUno"
-        android:text="Cambiar Valores"
+        android:text="@string/txtBtnUno"
        />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnDos"
-        android:text="Cambiar Imagen"
+        android:text="@string/txtBtnDos"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnTres"
-        android:text="Mostar Lista"
+        android:text="@string/txtBtnTres"
         />
 <ImageView
     android:id="@+id/ImgUno"

@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">Application</string>
-    <string name="saludo">Hola Camilo</string>
-    <string name="hintEdtView" >Colocar nombre</string>
+    <string name="saludo">Hello Camilo</string>
+    <string name="hintEdtView" >Put name</string>
+    <string name="hintNombre">Ej: Camilo Ceron</string>
+    <string name="Contraseña">Password</string>
+    <string name="hintContraseña">Ej: Only Numbers</string>
+    <string name="txtBtnUno">Change Values</string>
+    <string name="txtBtnDos">Change Image</string>
+    <string name="txtBtnTres">Show List</string>
+    <string name="txtImprimir">Print Name</string>
 </resources>
