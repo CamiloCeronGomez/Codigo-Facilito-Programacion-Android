@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Application</string>
     <string name="saludo">Hello Camilo</string>
+    <string name="Nombre">User</string>
     <string name="hintEdtView" >Put name</string>
     <string name="hintNombre">Ej: Camilo Ceron</string>
     <string name="Contraseña">Password</string>
@@ -9,4 +10,6 @@
     <string name="txtBtnDos">Change Image</string>
     <string name="txtBtnTres">Show List</string>
     <string name="txtImprimir">Print Name</string>
+    <string name="txtValor">0</string>
+    <string name="txtSensor">Proximity Sensor</string>
 </resources>

@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="cf.app.camiloceron.com.application.SecondActivity">
+    tools:context="cf.app.camiloceron.com.application.SecondActivity"
+    android:id="@+id/ActivitySecond"
+    android:orientation="vertical">
 <TextView
     android:id="@+id/txtImprimir"
     android:layout_width="match_parent"
@@ -14,4 +16,26 @@
     android:textColor="#ff3344"
     android:gravity="center_horizontal"
     android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/Sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtSensor"
+        android:textSize="20dp"
+        android:textColor="#ff3344"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        />
+    //Creo un TextView donde se va  a mostrarr el valor que va a arrojar el sensor de proximidad
+    <TextView
+        android:id="@+id/txtValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtValor"
+        android:textSize="20dp"
+        android:textColor="#ff3344"
+        android:gravity="center_horizontal" android:textStyle="bold"
+        />
+
 </LinearLayout>
